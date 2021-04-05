@@ -1,0 +1,16 @@
+#login {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+    form {
+        max-width: 100%;
+        min-width: 500px;
+
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+        }
+    }
+}

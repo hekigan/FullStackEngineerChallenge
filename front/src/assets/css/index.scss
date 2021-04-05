@@ -1,0 +1,77 @@
+@import "reset.css";
+@import "icofont/icofont.css";
+
+
+/* global */
+
+html,
+body {
+    background: #fff;
+    font-family: ヒラギノ角ゴ Pro,Hiragino Kaku Gothic Pro,メイリオ,Meiryo,Osaka,ＭＳ Ｐゴシック,MS PGothic,sans-serif;
+    font-size: 1rem;
+    min-height: 100vh;
+}
+
+h3 {
+    margin-bottom: 14px;
+}
+
+#app {
+    display: flex;
+    min-height: 100vh;
+}
+
+
+/* Form */
+
+form {
+
+    p {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}
+
+input[type=text],
+input[type=search],
+input[type=password] {
+    background: #ddd;
+    padding: 5px 10px;
+    transition: background .2s;
+
+    &:hover {
+        background: #eee;
+    }
+}
+
+input[type=text],
+input[type=password],
+input[type=button],
+.button,
+input[type=reset],
+input[type=submit],
+input[type=search],
+select {
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+}
+
+select {
+    border: 1px solid #ccc;
+}
+
+input[type=button],
+input[type=reset],
+input[type=submit],
+.button {
+    background: #62b0de;
+    color: #fff;
+    padding: 5px 15px;
+    text-decoration: none;
+
+    & + input {
+        margin-left: 10px;
+    }
+}
